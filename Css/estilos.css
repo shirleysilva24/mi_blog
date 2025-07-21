@@ -2,3 +2,10 @@
     transform: scale(1.25); 
 
 }
+
+.carousel-item img {
+  height: 500px; /* Altura fija para las imágenes del carrusel */
+  object-fit: cover; /* Esto recorta sin deformar */
+  border-radius: 40px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* sombra box-shadow: desplazamiento-x desplazamiento-y desenfoque color; */
+}
