@@ -4,8 +4,27 @@
 }
 
 .carousel-item img {
-  height: 500px; /* Altura fija para las imágenes del carrusel */
+  height: 400px; /* Altura fija para las imágenes del carrusel */
   object-fit: cover; /* Esto recorta sin deformar */
   border-radius: 40px; /* Bordes redondeados */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* sombra box-shadow: desplazamiento-x desplazamiento-y desenfoque color; */
 }
+
+.flecha{
+  font-size: 2rem;
+  color: black;
+}
+
+.centrar {
+  display: flex; /* Utiliza flexbox para centrar */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+  height: 50vh;               /* Altura total de la ventana */
+
+}
+
+#carouselExampleAutoplaying {
+  width: 50%;
+  height: 500px;
+}
+
